@@ -17,3 +17,4 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+Приложение для записи задач. Задачи храняться между сессиями. Можно создавть задачи, редактировать дату и описание задачи, переводить в режим "завершено". Примененые технологии: vue, vue-router, materialize.css, LocalStorage, scss
