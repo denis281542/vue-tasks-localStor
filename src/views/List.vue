@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h1>List </h1>
-    <div class="row">
+    <div v-if="tasks.length" class="row">
       <div class="input-field col s6">
         <select ref="select" v-model="filter">
           <option value="" disabled selected>Choose your option</option>
@@ -43,7 +43,7 @@
       </tbody>
 		</table>
 
-		<p v-else>No tasks</p>
+		<p v-else class="center">No tasks</p>
 	</div>
 </template>
 
