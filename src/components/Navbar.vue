@@ -16,17 +16,17 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
   nav {
     padding: 0 5rem;
   }
 
   a {
     cursor: pointer;
+  }
 
-    &.router-link-active {
-      background-color: rgba(0,0,0,0.1);
-    }
+  a.router-link-active {
+    background-color: rgba(0,0,0,0.1);
   }
 
 </style>
